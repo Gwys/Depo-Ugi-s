@@ -133,6 +133,11 @@ footer {
   margin-top: 1em;
 }
 
+#Tabla{
+  width: 100%;
+  height: 100%; 
+}
+
 #Tabla div ul{
   display:flex;
 }
@@ -140,5 +145,11 @@ footer {
 #Tabla div ul li{
   display:flex;
   flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#filas{
+  background-color:rgb(223, 215, 215);
 }
 /*# sourceMappingURL=estilos.css.map */
