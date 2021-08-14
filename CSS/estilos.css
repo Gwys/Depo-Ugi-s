@@ -158,4 +158,39 @@ footer {
   font-size: 2.5em;
   color: whitesmoke;
 }
+
+.foto{
+  width: 100%;
+}
+.foto img{
+  width: 100%;
+}
+.CGaleria{
+  width: 100%;
+  margin: auto;
+  display:grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: .5rem;
+  row-gap: .5rem;
+}
+@media (min-width:100px){
+  .CGaleria{
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media (min-width:520px){
+  .CGaleria{
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (min-width:720px){
+  .CGaleria{
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (min-width:1024px){
+  .CGaleria{
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
 /*# sourceMappingURL=estilos.css.map */
