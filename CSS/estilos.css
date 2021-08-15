@@ -193,4 +193,7 @@ footer {
     grid-template-columns: repeat(4, 1fr);
   }
 }
+.rounded-pill {
+  border-radius: 2rem!important;
+}
 /*# sourceMappingURL=estilos.css.map */
