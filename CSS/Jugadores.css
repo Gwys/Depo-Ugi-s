@@ -18,9 +18,9 @@ h1 {
     column-span:all;
 }
 
-a {
+.Nombre {
     text-decoration: none;
-    color:rgb(255, 255, 255);
+    color:rgb(0, 0, 0) !important;
 }
 
 #Jugador {
@@ -68,7 +68,6 @@ figure {
     padding:1rem;
     box-sizing: border-box;
 }
-
 
 /* Móviles en horizontal o tablets en vertical */
 @media (max-width: 767px) { 
