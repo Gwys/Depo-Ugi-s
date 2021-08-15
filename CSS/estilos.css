@@ -196,4 +196,14 @@ footer {
 .rounded-pill {
   border-radius: 2rem!important;
 }
+.IgFooter a{
+  justify-content: end;
+  text-decoration: none;
+  color: #b7b2b2;
+}
+a{
+  text-decoration: none !important;
+  color:#1f700f;
+}
+
 /*# sourceMappingURL=estilos.css.map */
