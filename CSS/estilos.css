@@ -17,8 +17,14 @@ footer {
   display: -ms-flexbox;
   display: flex;
   background-color: black;
-  height: 2em;
+  height: 2.2em;
 }
+/*
+.Footer{
+  position: absolute;
+  bottom: 0;
+  width: 97.5%;
+}*/
 
 .iconMenu {
   height: 75px;
@@ -205,5 +211,7 @@ a{
   text-decoration: none !important;
   color:#1f700f;
 }
-
+.card{
+  background-color: transparent;
+}
 /*# sourceMappingURL=estilos.css.map */
